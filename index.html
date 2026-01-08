@@ -1,0 +1,354 @@
+---
+layout: default
+---
+
+<div>
+
+  These notes accompany the ECE2103 course <a href="http://cs231n.stanford.edu/">ECE2103: Data Structures and Algorithms</a>. For questions/concerns/bug reports, please submit a pull request directly to
+  our <a href="https://github.com/ECE4602/ece2103.github.io">git repo</a>.
+  <br>
+  <!-- For questions/concerns/bug reports contact <a href="http://cs.stanford.edu/people/jcjohns/">Justin Johnson</a> regarding the assignments, or contact <a href="http://cs.stanford.edu/people/karpathy/">Andrej Karpathy</a> regarding the course notes. You can also submit a pull request directly to our <a href="https://github.com/cs231n/cs231n.github.io">git repo</a>. -->
+  <!-- <br> -->
+  <!-- We encourage the use of the <a href="https://hypothes.is/">hypothes.is</a> extension to annote comments and discuss these notes inline. -->
+</div>
+
+<div class="home">
+  <div class="materials-wrap">
+    <div class="module-header">Labs</div>
+    <div class="materials-item">
+      <a href="labs/lab-01/">LAB PRACTICE: Implement dynamic array resizing program that expands and shrinks the array as the user inserts or removes data.</a>
+    </div>
+    <div class="materials-item">
+      <a href="labs/lab-02/">LAB PRACTICE: implement LRU cache simulation program using doubly-linked lists.</a>
+    </div>
+    <div class="materials-item">
+      <a href="labs/lab-03/">LAB PRACTICE: Write a simple 1-digit expression evaluation program. (infix to postfix, and evaluation of the final answer).</a>
+    </div>
+    <div class="materials-item">
+      <a href="labs/lab-04/">LAB PRACTICE: Revision on recursion.</a>
+    </div>
+    <div class="materials-item">
+      <a href="labs/lab-05/">LAB PRACTICE: Expression trees.</a>
+    </div>
+    <div class="materials-item">
+      <a href="labs/lab-06/">LAB PRACTICE: Implement AVL rotation for binary search trees.</a>
+    </div>
+    <div class="materials-item">
+      <a href="labs/lab-07/">LAB PRACTICE: Write a program for the implementation of Priority Queues on a custom data structure.</a>
+    </div>
+    <div class="materials-item">
+      <a href="labs/lab-08/">LAB PRACTICE: Implement a user-interactive hash table for strings.</a>
+    </div>
+    <div class="materials-item">
+      <a href="labs/lab-09/">LAB PRACTICE: Week 14: Submission of Course Project.</a>
+    </div>
+    <div class="materials-item">
+      <a href="labs/lab-10/">LAB PRACTICE: Week 15: Discussion of Projects.</a>
+    </div>
+  </div>
+
+  <!-- <div class="materials-wrap">
+    <div class="module-header">Spring 2021 Assignments</div>
+      <div class="materials-item">
+        <a href="assignments2021/assignment1/">Assignment #1: Image Classification, kNN, SVM, Softmax, Fully Connected Neural Network</a>
+      </div>
+      <div class="materials-item">
+        <a href="assignments2021/assignment2/">Assignment #2: Fully Connected and Convolutional Nets, Batch Normalization, Dropout, Frameworks</a>
+      </div>
+      <div class="materials-item">
+        <a href="assignments2021/assignment3/">Assignment #3: Image Captioning with RNNs and Transformers, Network Visualization,
+          Generative Adversarial Networks, Self-Supervised Contrastive Learning</a>
+      </div>
+  </div> -->
+  <!--
+    <div class="materials-item">
+      <a href="assignments2019/assignment2/">
+        Assignment #2: Fully Connected Nets, Batch Normalization, Dropout,
+        Convolutional Nets
+      </a>
+    </div>
+
+    <div class="materials-item">
+      <a href="assignments2019/assignment3/">
+        Assignment #3: Image Captioning with Vanilla RNNs, Image Captioning
+  with LSTMs, Network Visualization, Style Transfer, Generative Adversarial Networks
+      </a>
+    </div> -->
+  <!--
+    <div class="module-header">Spring 2018 Assignments</div>
+
+    <div class="materials-item">
+      <a href="assignments2018/assignment1/">
+        Assignment #1: Image Classification, kNN, SVM, Softmax, Neural Network
+      </a>
+    </div>
+
+    <div class="materials-item">
+      <a href="assignments2018/assignment2/">
+        Assignment #2: Fully-Connected Nets, Batch Normalization, Dropout,
+        Convolutional Nets
+      </a>
+    </div>
+
+    <div class="materials-item">
+      <a href="assignments2018/assignment3/">
+        Assignment #3: Image Captioning with Vanilla RNNs, Image Captioning
+        with LSTMs, Network Visualization, Style Transfer, Generative Adversarial Networks
+      </a>
+    </div>
+    -->
+
+  <!--
+    <div class="module-header">Winter 2016 Assignments</div>
+
+    <div class="materials-item">
+      <a href="assignments2016/assignment1/">
+        Assignment #1: Image Classification, kNN, SVM, Softmax, Neural Network
+      </a>
+    </div>
+
+    <div class="materials-item">
+      <a href="assignments2016/assignment2/">
+        Assignment #2: Fully-Connected Nets, Batch Normalization, Dropout,
+        Convolutional Nets
+      </a>
+    </div>
+
+    <div class="materials-item">
+      <a href="assignments2016/assignment3/">
+        Assignment #3: Recurrent Neural Networks, Image Captioning,
+        Image Gradients, DeepDream
+      </a>
+    </div>
+    -->
+
+  <!--
+    <div class="module-header">Winter 2015 Assignments</div>
+
+    <div class="materials-item">
+      <a href="assignment1/">
+        Assignment #1: Image Classification, kNN, SVM, Softmax
+      </a>
+    </div>
+
+    <div class="materials-item">
+      <a href="assignment2/">
+        Assignment #2: Neural Networks, ConvNets I
+      </a>
+    </div>
+
+    <div class="materials-item">
+      <a href="assignment3/">
+        Assignment #3: ConvNets II, Transfer Learning, Visualization
+      </a>
+    </div>
+  -->
+
+  <div class="module-header">Module 1: Introduction to Data Structures</div>
+  <div class="materials-item">
+    <a href="setup-instructions/">
+      Overview of Data Structures.
+    </a>
+    <div class="kw">
+      Scope and core use cases for common structures.
+    </div>
+  </div>
+  <div class="materials-item">
+    <a href="python-numpy-tutorial/">
+      Common array issues.
+    </a>
+    <div class="kw">
+      Bounds, resizing, and time complexity pitfalls.
+    </div>
+  </div>
+  <div class="materials-item">
+    <a href="setup-instructions/">
+      Revision on Dynamic Allocations in C/C++.
+    </a>
+    <div class="kw">
+      Memory allocation, pointers, and lifetime review.
+    </div>
+  </div>
+
+  <div class="module-header">Module 2-3: Linked Lists</div>
+  <div class="materials-item">
+    <a href="classification/">
+      Implementation of singly Linked Lists (insertion, deletion, traversal).
+    </a>
+    <div class="kw">
+      Build and traverse single-linked nodes.
+    </div>
+  </div>
+  <div class="materials-item">
+    <a href="linear-classify/">
+      Concepts of doubly and circular linked lists.
+    </a>
+    <div class="kw">
+      Variants, trade-offs, and use cases.
+    </div>
+  </div>
+  <div class="materials-item">
+    <a href="classification/">
+      Tortoise and Hare (Floyd's) cycle algorithm.
+    </a>
+    <div class="kw">
+      Two-pointer cycle detection technique.
+    </div>
+  </div>
+
+  <div class="module-header">Module 4-5: Abstract Data Types - Stacks & Queues</div>
+  <div class="materials-item">
+    <a href="optimization-1/">
+      Introduction to Abstract Data Types (ADT)
+    </a>
+    <div class="kw">
+      Define operations independent of implementation.
+    </div>
+  </div>
+  <div class="materials-item">
+    <a href="optimization-2/">
+      Implementation of stacks and queues using arrays.
+    </a>
+    <div class="kw">
+      Array-backed stack/queue operations.
+    </div>
+  </div>
+  <div class="materials-item">
+    <a href="optimization-1/">
+      Implementation of stacks and queues using linked lists.
+    </a>
+    <div class="kw">
+      Linked-list stack/queue operations.
+    </div>
+  </div>
+  <div class="materials-item">
+    <a href="neural-networks-1/">
+      Stack application: Postfix expression conversion and evaluation (Problem solving).
+    </a>
+    <div class="kw">
+      Use stacks for expression evaluation.
+    </div>
+  </div>
+
+  <div class="module-header">Module 6, 8-9: Trees</div>
+  <div class="materials-item">
+    <a href="neural-networks-2/">
+      Introduction to trees: Binary trees and Binary search trees (BST)
+    </a>
+    <div class="kw">
+      Tree terminology and BST properties.
+    </div>
+  </div>
+  <div class="materials-item">
+    <a href="neural-networks-3/">
+      Tree traversal algorithms: Depth first and Breadth first.
+    </a>
+    <div class="kw">
+      DFS vs BFS traversal patterns.
+    </div>
+  </div>
+  <div class="materials-item">
+    <a href="neural-networks-case-study/">
+      Tree operations: Insertion, deletion, searching.
+    </a>
+    <div class="kw">
+      Core BST operations and costs.
+    </div>
+  </div>
+  <div class="materials-item">
+    <a href="neural-networks-2/">
+      Balanced Trees: AVL rotations OR Red-Black trees.
+    </a>
+    <div class="kw">
+      Balancing to control height.
+    </div>
+  </div>
+
+  <div class="module-header">Module 10: Advanced Tree Structures</div>
+  <div class="materials-item">
+    <a href="convolutional-networks/">
+      Huffman Coding and Huffman trees.
+    </a>
+    <div class="kw">
+      Prefix codes and optimal trees.
+    </div>
+  </div>
+  <div class="materials-item">
+    <a href="understanding-cnn/">
+      Priority Queues.
+    </a>
+    <div class="kw">
+      Priority-based insertion and removal.
+    </div>
+  </div>
+  <div class="materials-item">
+    <a href="convolutional-networks/">
+      Course Project Announcement.
+    </a>
+    <div class="kw">
+      Project scope and milestones.
+    </div>
+  </div>
+
+  <div class="module-header">Module 11, 13: Hash Tables and Heaps</div>
+  <div class="materials-item">
+    <a href="transfer-learning/">
+      Introduction to Hashing.
+    </a>
+    <div class="kw">
+      Hash functions and table basics.
+    </div>
+  </div>
+  <div class="materials-item">
+    <a href="choose-project/">
+      Hash table implementation using arrays.
+    </a>
+    <div class="kw">
+      Array-based hash table mechanics.
+    </div>
+  </div>
+  <div class="materials-item">
+    <a href="transfer-learning/">
+      Explanation of Heaps and their basic functions.
+    </a>
+    <div class="kw">
+      Heap properties and operations.
+    </div>
+  </div>
+  <div class="materials-item">
+    <a href="choose-project/">
+      Collision resolution techniques: Chaining and Open addressing.
+    </a>
+    <div class="kw">
+      Resolve collisions with chaining or probing.
+    </div>
+  </div>
+
+  <div class="module-header">Module 14-15: Graphs</div>
+  <div class="materials-item">
+    <a href="rnn/">
+      Introduction to Graphs: Representation and terminology (adjacency matrix and adjacency list).
+    </a>
+    <div class="kw">
+      Graph models and storage methods.
+    </div>
+  </div>
+  <div class="materials-item">
+    <a href="rnn/">
+      Minimum Spanning Trees (Prim's and Kruskal's algorithms)
+    </a>
+    <div class="kw">
+      MST algorithms and use cases.
+    </div>
+  </div>
+  <div class="materials-item">
+    <a href="rnn/">
+      Shortest Distance/Path algorithms (Dijkstra's algorithm)
+    </a>
+    <div class="kw">
+      Shortest path fundamentals.
+    </div>
+  </div>
+
+</div>
+</div>

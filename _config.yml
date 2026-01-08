@@ -1,0 +1,23 @@
+# Site settings
+title: ECE2103 Data Structures and Algorithms
+email: cgokmen@stanford.edu
+description: "Course materials and notes for ECE2103: Data Structures and Algorithms."
+baseurl: ""
+url: "https://cs231n.github.io"
+courseurl: "http://cs231n.stanford.edu/"
+github_username: ECE2103
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+highlighter: rouge
+kramdown:
+  input: GFM
+  auto_ids: true
+  syntax_highlighter: rouge
+
+# links to homeworks
+hw_1_colab: https://cs231n.github.io/assignments/2025/assignment1_colab.zip
+hw_2_colab: https://cs231n.github.io/assignments/2025/assignment2_colab.zip
+hw_3_colab: https://cs231n.github.io/assignments/2025/assignment3_colab.zip
